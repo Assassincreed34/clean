@@ -1,0 +1,138 @@
+{
+  "cleaning_products": [
+    {
+      "id": 1,
+      "name": "Floor Cleaner - Pine Fresh",
+      "category": "Floor Cleaners",
+      "price": 120,
+      "unit": "1L",
+      "description": "Powerful floor cleaner with pine fragrance. Suitable for all floor types including tiles, marble, and granite.",
+      "image": "floor_cleaner_pine.jpg",
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "White Phenyl",
+      "category": "Phenyl",
+      "price": 80,
+      "unit": "1L",
+      "description": "High-quality white phenyl for effective floor and toilet cleaning. Long-lasting fragrance.",
+      "image": "white_phenyl.jpg",
+      "in_stock": true,
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "name": "Black Phenyl",
+      "category": "Phenyl",
+      "price": 85,
+      "unit": "1L",
+      "description": "Industrial strength black phenyl for heavy-duty cleaning. Perfect for toilets and floors.",
+      "image": "black_phenyl.jpg",
+      "in_stock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "Toilet Bowl Cleaner",
+      "category": "Toilet Cleaners",
+      "price": 150,
+      "unit": "500ml",
+      "description": "Powerful toilet bowl cleaner that removes tough stains and kills 99.9% germs. Fresh lemon fragrance.",
+      "image": "toilet_cleaner.jpg",
+      "in_stock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Bathroom Cleaner - Antibacterial",
+      "category": "Bathroom Cleaners",
+      "price": 180,
+      "unit": "500ml",
+      "description": "Complete bathroom cleaning solution. Removes soap scum, water stains, and kills bacteria.",
+      "image": "bathroom_cleaner.jpg",
+      "in_stock": true,
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "name": "Glass Cleaner",
+      "category": "Glass Cleaners",
+      "price": 100,
+      "unit": "500ml",
+      "description": "Streak-free glass cleaner for windows, mirrors, and glass surfaces. Ammonia-free formula.",
+      "image": "glass_cleaner.jpg",
+      "in_stock": true,
+      "rating": 4.1
+    },
+    {
+      "id": 7,
+      "name": "Kitchen Degreaser",
+      "category": "Kitchen Cleaners",
+      "price": 200,
+      "unit": "500ml",
+      "description": "Heavy-duty kitchen degreaser for removing oil, grease, and food stains from kitchen surfaces.",
+      "image": "kitchen_degreaser.jpg",
+      "in_stock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "name": "Multi-Surface Cleaner",
+      "category": "Multi-Purpose",
+      "price": 160,
+      "unit": "1L",
+      "description": "Versatile cleaner suitable for multiple surfaces. Safe for use on wood, plastic, and metal.",
+      "image": "multi_surface.jpg",
+      "in_stock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 9,
+      "name": "Disinfectant Spray",
+      "category": "Disinfectants",
+      "price": 220,
+      "unit": "500ml",
+      "description": "Hospital-grade disinfectant spray. Kills 99.9% of viruses and bacteria. Suitable for all surfaces.",
+      "image": "disinfectant_spray.jpg",
+      "in_stock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "name": "Carpet Cleaner",
+      "category": "Specialty Cleaners",
+      "price": 250,
+      "unit": "1L",
+      "description": "Deep cleaning carpet cleaner that removes stains, odors, and revives carpet fibers.",
+      "image": "carpet_cleaner.jpg",
+      "in_stock": true,
+      "rating": 4.2
+    }
+  ],
+  "categories": [
+    "Floor Cleaners",
+    "Phenyl",
+    "Toilet Cleaners",
+    "Bathroom Cleaners",
+    "Glass Cleaners",
+    "Kitchen Cleaners",
+    "Multi-Purpose",
+    "Disinfectants",
+    "Specialty Cleaners"
+  ],
+  "business_info": {
+    "name": "Padamavati Cleaning Products",
+    "whatsapp": "9591936066",
+    "email": "contact@padamavaticleaners.com",
+    "address": "Karnataka, India",
+    "tagline": "Premium Quality Cleaning Solutions for Your Home",
+    "social_media": {
+      "facebook": "@padamavaticleaners",
+      "instagram": "@padamavaticleaners",
+      "twitter": "@padamavaticlean",
+      "youtube": "Padamavati Cleaning Products"
+    }
+  }
+}

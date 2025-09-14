@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padamavati Cleaning Products - Premium Quality Cleaning Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><i class="fas fa-spray-can"></i> Padamavati Cleaning Products</h1>
+                    <p class="tagline">Premium Quality Cleaning Solutions for Your Home</p>
+                </div>
+                <nav class="nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#cart" class="nav-link">
+                        Cart <span class="cart-count">0</span>
+                    </a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="btn btn--sm admin-toggle">Admin Mode</button>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to Padamavati Cleaning Products</h2>
+                <p>Your trusted partner for premium quality cleaning solutions. We deliver professional-grade cleaning products right to your doorstep.</p>
+                <a href="#products" class="btn btn--primary btn--lg">Shop Now</a>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-truck"></i>
+                        <span>Fast Delivery</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Quality Guaranteed</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-phone"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h3>Shop by Category</h3>
+            <div class="categories-grid" id="categoriesGrid">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="products-header">
+                <h3>Our Products</h3>
+                <div class="products-controls">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchInput" placeholder="Search products..." class="form-control">
+                    </div>
+                    <select id="categoryFilter" class="form-control">
+                        <option value="">All Categories</option>
+                    </select>
+                </div>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="cart">
+        <div class="container">
+            <h3>Shopping Cart</h3>
+            <div class="cart-content">
+                <div class="cart-items" id="cartItems">
+                    <div class="empty-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>Your cart is empty</p>
+                    </div>
+                </div>
+                <div class="cart-summary">
+                    <div class="cart-total">
+                        <span>Total: ₹<span id="cartTotal">0</span></span>
+                    </div>
+                    <button class="btn btn--primary btn--full-width" id="checkoutBtn">
+                        <i class="fab fa-whatsapp"></i>
+                        Order via WhatsApp
+                    </button>
+                    <button class="btn btn--outline btn--full-width" id="clearCartBtn">Clear Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>WhatsApp Support</strong>
+                            <p>+91-9591936066</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <p>contact@padamavaticleaners.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Location</strong>
+                            <p>Karnataka, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="support-actions">
+                    <h3>Need Help?</h3>
+                    <p>Contact us for any queries, product information, or support.</p>
+                    <a href="https://wa.me/919591936066" target="_blank" class="btn btn--primary whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat on WhatsApp
+                    </a>
+                    <div class="social-media">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="https://facebook.com/padamavaticleaners" target="_blank" class="social-link facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com/padamavaticleaners" target="_blank" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/padamavaticlean" target="_blank" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://youtube.com/@padamavaticleaningproducts" target="_blank" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Padamavati Cleaning Products</h4>
+                    <p>Your trusted partner for premium quality cleaning solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +91-9591936066</p>
+                    <p><i class="fas fa-envelope"></i> contact@padamavaticleaners.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Karnataka, India</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/padamavaticleaners" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/padamavaticleaners" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/padamavaticlean" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://youtube.com/@padamavaticleaningproducts" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Padamavati Cleaning Products. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Price Edit Modal -->
+    <div id="priceModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Edit Price</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Product: <span id="editProductName"></span></p>
+                <div class="form-group">
+                    <label class="form-label">New Price (₹)</label>
+                    <input type="number" id="newPriceInput" class="form-control" min="1">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--secondary" id="cancelEdit">Cancel</button>
+                <button class="btn btn--primary" id="savePrice">Save Price</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
